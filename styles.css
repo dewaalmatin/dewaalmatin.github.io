@@ -1,0 +1,114 @@
+body {
+    margin: auto;
+    background-color: #fafafa;
+    font-family: 'SF Pro Text';
+    color: black;
+}
+
+header {
+    background-color: black;
+    color: #fafafa;
+    margin: auto;
+    padding: 24px;
+}
+
+h1, h2, h3 {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    height: fit-content;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 200;
+    padding-bottom: 6px;
+}
+
+div.main {
+    margin-top: 64px;
+}
+
+h3 {
+    margin-top: 24px;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+    padding: 64px;
+}
+
+input[type=range] {
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* Chromium */
+    width: 8px;
+    height: 160px;
+    padding: 0.5px;
+	outline: none;
+    box-shadow: 1px 1px 14px 1px lightgray;
+}
+
+input[type=range]::-webkit-slider-runnable-track{
+	background-color: lightgrey;
+    border-radius: 16px;	
+}
+input[type=range]::-webkit-slider-thumb {
+	    box-shadow: 2px 2px 26px 2px lightsteelblue;
+		width: 16px;
+		height: 16px;
+		border-radius: 50%;
+	}
+
+p, label{
+    display: block;
+    margin: 8px;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+div.slider {
+    display: inline-block;
+    width: 160px;
+}
+
+input[type=submit] {
+    display: block;
+    margin: auto;
+    margin-top: 64px;
+    font-size: 24px;
+    color: #fafafa;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 24px;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-shadow: 2px 2px 26px 2px lightsteelblue;
+}
+
+input[type=submit]:hover {
+    background-color: #00659c;
+}
+
+#result {
+    background-color: black;
+    color: #fafafa;
+    padding: 24px;
+}
+
+ol {
+    margin: auto;
+    text-align: center;
+    list-style-position: inside;
+}
+
+li {
+    margin: auto;
+    font-size: 24px;
+    padding: 24px;
+    font-weight: 400;
+}
